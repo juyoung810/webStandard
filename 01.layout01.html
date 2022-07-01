@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      body {
+        background: #c8e6c9;
+      }
+      #wrap {
+        width: 1000px;
+        height: 900px;
+        margin: 0 auto; /* 위 아래는 0 오른쪽 왼쪽은 auto -> 중앙 정렬 */
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      #header {
+        width: 1000px;
+        height: 100px;
+        background: #2e7d32;
+        line-height: 100px;
+      }
+      #nav {
+        width: 1000px;
+        height: 100px;
+        background: #388e3c;
+        line-height: 100px;
+      }
+      #side {
+        float: left;
+        width: 300px;
+        height: 600px;
+        background: #43a047;
+        line-height: 600px;
+      }
+      #contents {
+        float: left; /* 블록의 정렬을 위해 , height 0 으로 인식된다*/
+        width: 700px;
+        height: 600px;
+        background: #4caf50;
+        line-height: 600px;
+      }
+      #footer {
+        float: left;
+        width: 1000px;
+        height: 100px;
+        background: #66bb6a;
+        line-height: 100px; /* height 랑 동일하게 설정 시 중앙 정렬된 것 처럼 보임..임시*/
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">header</div>
+      <div id="nav">nav</div>
+      <div id="side">side</div>
+      <div id="contents">contents</div>
+      <div id="footer">footer</div>
+    </div>
+  </body>
+</html>
